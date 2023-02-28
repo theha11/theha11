@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8" />
+    <title>no name</title>
+    <meta name="description" content="Thực hành tạo layout bằng HTML và CSS cơ bản" />
+    <meta name="author" content="ff" />
+    <meta name="keyword" content="hoc css,css co ban,css layout" />
+    <link type="text/css" rel="stylesheet" href="style2.css" />
+    <link type="text/css" rel="stylesheet" href="normalize.css" />
+    <link type="text/css" rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap-grid.css" />
+    <link type="text/css" rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap-grid.min.css" />
+    <link type="text/css" rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap-reboot.css" />
+    <link type="text/css" rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap-reboot.min.css" />
+    <link type="text/css" rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap.css" />    
+    <link type="text/css" rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap.min.css" />
+    <link type="text/css" rel="stylesheet" href="bootstrap-4.0.0-dist/js/bootstrap.bundle.js" />
+    <link type="text/css" rel="stylesheet" href="bootstrap-4.0.0-dist/js/bootstrap.bundle.min.js" />
+    <link type="text/css" rel="stylesheet" href="bootstrap-4.0.0-dist/js/bootstrap.js" />
+    <link type="text/css" rel="stylesheet" href="bootstrap-4.0.0-dist/js/bootstrap.min.js" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css\CustomCSS.css">
+</head>
+<body>
+    <div id="container">
+        <div id="menu">
+            <ul>
+                <li><a href="error404.html">Trang chủ</a></li>
+                <li><a href="error404.html">Dịch vụ</a></li>
+                <li><a href="error404.html">Sản phẩm</a></li>
+                <li><a href="error404.html">Tin tức</a></li>
+                <li><a href="error404.html">Diễn đàn</a></li>
+                <li><a href="error404.html">Liên hệ</a></li>
+            </ul>
+        </div>
+        <div id="content">
+            <div id="logo"><img src="img/logo-2021.jpg"style="width:100px;height:100px;" /></div>
+            <div id="slogan"><h3>Học HTML và CSS cơ bản miễn phí</h3></div>
+            <script>
+                function startTime() {
+                    const today = new Date();
+                    document.getElementById("realtime").innerHTML = today.toString();
+                    setTimeout(startTime, 1000);
+                }
+            </script>
+        <div id="header">
+            <div id="logo"></div>
+            <div id="slogan"></div>
+        </div>
+            <input class="form_input" placeholder="Please search here ......" />
+            <button class="form_submit">Look up</button>
+            <h3>Bạn sẽ được học những gì?</h3>
+            <p>Nếu bạn là người mới tìm hiểu về website thì serie này sẽ giúp các bạn hình dung rõ hơn việc làm một giao diện website tĩnh bằng HTML và CSS vì tất cả giao diện website đều sử dụng HTML & CSS để lên bố cục cho giao diện,
+                 giúp bạn tự làm một giao diện website cho riêng mình.</p>
+        </div> 
+        <div class="row">
+            <div class="row">
+                <div id="box1" class="col">
+                <h2><a href="#">CSS</h2>
+                <img src="img/css-icon.png" alt="CSS" />
+                <p>Bài viết về CSS</p>
+                </div>
+                <div id="box2" class="col">
+                <h2><a href="#">URL</h2>
+                <img src="img/url-icon.png" alt="URL" />
+                <p>Bài viết về URL.</p>
+                </div>
+                <div id="box3" class="col">
+                <h2><a href="#">HTML</h2>
+                <img src="img/html-icon.png" alt="HTML" />
+                <p>Bài viết về HTML.</p>
+                </div>
+        <div id="box1" class="col"></div>
+        <div id="box2" class="col"></div>
+        <div id="box3" class="col"></div>
+        </div>
+        </div>
+        <div id="footer">
+            <div id="footer">
+                <p>Copyright &copy; 2015</p>
+        </div>
+        </div>
+</body>
+</html>
